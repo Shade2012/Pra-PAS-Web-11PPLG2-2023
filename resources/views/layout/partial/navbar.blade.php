@@ -19,6 +19,7 @@
            <li><hr class="dropdown-divider"></li>
            <li><a class="dropdown-item" href="/author/all">Author</a></li>
            <li><a class="dropdown-item" href="/book/all">Books</a></li>
+           <li><a class="dropdown-item" href="/cabang/all">Cabang</a></li>
          </ul>
        </li>
      </ul>
