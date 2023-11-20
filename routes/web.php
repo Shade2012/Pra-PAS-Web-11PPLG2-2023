@@ -5,6 +5,8 @@ use App\Models\Author;
 use App\Http\Controllers\AuthorController;
 use App\Models\Books;
 use App\Http\Controllers\BooksController;
+use App\Models\cabang;
+use App\Http\Controllers\CabangController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,3 +33,5 @@ Route::get('/author/all', [AuthorController::class, 'index']);
 Route::get('/author/detail/{author}', [AuthorController::class, 'show']);
 Route::get('/book/all', [BooksController::class, 'index']);
 Route::get('/book/detail/{book}', [BooksController::class, 'show']);
+Route::get('/cabang/all', [CabangController::class, 'index']);
+Route::get('/cabang/detail/{cabang}', [CabangController::class, 'show']);
